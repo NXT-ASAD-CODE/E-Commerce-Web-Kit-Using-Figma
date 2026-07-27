@@ -1,8 +1,9 @@
 import React from 'react'
+import PrimarySearchAppBar from './components/Appbar'
 
 function App() {
   return (
-    <div>App</div>
+    <div><PrimarySearchAppBar/></div>
   )
 }
 
