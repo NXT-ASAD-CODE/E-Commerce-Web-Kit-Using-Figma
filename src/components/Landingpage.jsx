@@ -2,6 +2,8 @@ import React from 'react'
 import Typography from '@mui/material/Typography';
 import "../index.css"
 import { Box, Button } from '@mui/material';
+
+
 function Landingpage() {
     return (
         <div className='Landing-page'>
