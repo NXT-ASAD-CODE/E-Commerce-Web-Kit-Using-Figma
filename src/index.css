@@ -511,12 +511,12 @@
 }
 
 .main .text {
-    color: black;
-    font-size: 40px;
+    color: blue;
+    font-size: 30px;
     font-weight: 400;
     overflow: hidden;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 27px;
+    margin-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -529,8 +529,8 @@
 
 .option li {
     list-style: none;
-    color: rgb(69, 68, 68);
-    font-size: 40px;
+    color: black;
+    font-size: 30px;
     font-weight: 800;
     position: relative;
     top: 0;
@@ -557,7 +557,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: white;
+    background: #F2F0F1;
     border-left: 2px solid black;
     animation: typing 3s steps(10) infinite;
 }
@@ -581,7 +581,7 @@
     }
 }
   .stats-bar {
-    background: white;
+    background: #F2F0F1;
     display: flex;
     align-items: stretch;
     border-radius: 4px;
@@ -636,9 +636,25 @@
     }
   }
   .people-img{
-    background-color: white;
+    background-color: #F2F0F1;
     height: 100vh;
     margin-top: 5px;
-    overflow: hidden;
+    /* overflow-y: hidden; */
+    /* width: 400px; */
+    height: 90vh;
   }
-
+.vector1{
+  position:absolute;
+  right: 30px;
+  top: 100px;
+}
+.vector2{
+  position:absolute;
+  right: 500px;
+  top: 400px;
+  /* left: 50px; */
+}
+.Landing-page{
+  background-color: #F2F0F1;
+  height: 100vh;
+}

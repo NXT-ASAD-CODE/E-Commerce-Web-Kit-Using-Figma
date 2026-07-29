@@ -4,7 +4,7 @@ import "../index.css"
 import { Box, Button } from '@mui/material';
 function Landingpage() {
     return (
-        <div>
+        <div className='Landing-page'>
             <div className='d-flex'>
                 <div>
                     <Box sx={{ marginTop: 7 }} >
@@ -46,9 +46,13 @@ function Landingpage() {
                         </div>
                     </div>
                 </div>
+               
                 <div>
+                 <img className='vector2' src="../public/Vector (1).svg" alt="" />
+                    
                     <img className='people-img' src="../public/Rectangle_2-removebg-preview.png" alt="" />
                 </div>
+                 <img className='vector1' src="../public/Vector.svg" alt="" />
             </div>
         </div>
     )
