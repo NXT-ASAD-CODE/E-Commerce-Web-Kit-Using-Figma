@@ -156,7 +156,13 @@ export default function PrimarySearchAppBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar
+        position="static"
+        sx={{
+          backgroundColor: 'black',
+          color: 'white',
+        }}
+      >
         <Toolbar>
           <IconButton
             size="large"
@@ -167,11 +173,11 @@ export default function PrimarySearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography 
+          <Typography
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: 'none', sm: 'block' } }}
+            sx={{ display: { xs: 'none', sm: 'block' }, color: 'white' }}
           >
             NEXCENT.STORE
           </Typography>
@@ -231,4 +237,3 @@ export default function PrimarySearchAppBar() {
     </Box>
   );
 }
-// export default PrimarySearchAppBar;
