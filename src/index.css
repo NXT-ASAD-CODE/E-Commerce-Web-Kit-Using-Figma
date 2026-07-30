@@ -660,7 +660,7 @@
   height: 100vh;
 }
 /* logos slide */
-@keyframes slide {
+@keyframes slider {
     from {
         transform: translateX(0);
     }
@@ -706,7 +706,7 @@
 
 .clients-section-logo .logos-slide {
 
-    animation: 35s slide infinite linear;
+    animation: 35s slider infinite linear;
 }
 
 .clients-section-logo .logos-slide img {
