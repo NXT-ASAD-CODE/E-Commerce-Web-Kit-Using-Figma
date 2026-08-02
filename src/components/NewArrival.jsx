@@ -37,7 +37,7 @@ Please let me know the availability.`;
     <div className="height-100-vh">
 
       <div className="d-flex justify-content-center">
-        <h1 className="margin-top-75 font-size-55 font-family">
+        <h1 className="margin-top-50 font-size-55 font-family">
           New Arrivals
         </h1>
       </div>
@@ -50,9 +50,11 @@ Please let me know the availability.`;
 
             <CardMedia
               component="img"
-              height="300"
-              image="/static/images/cards/contemplative-reptile.jpg"
+              height="380"
+              image="../whatsapp iamges/WhatsApp Image 2026-06-09 at 3.06.23 PM.jpeg"
               alt="Khadi Image"
+            //   width="200"
+              
             />
 
             <CardContent>
