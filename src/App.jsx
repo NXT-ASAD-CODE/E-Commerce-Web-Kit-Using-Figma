@@ -2,6 +2,7 @@ import React from 'react'
 import PrimarySearchAppBar from './components/Appbar'
 import Landingpage from './components/Landingpage'
 import ClientsSectionLogo from './components/Scroller'
+import NewArrival from './components/NewArrival'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <PrimarySearchAppBar/>
       <Landingpage/>
       <ClientsSectionLogo/>
+      <NewArrival/>
     </div>
   )
 }

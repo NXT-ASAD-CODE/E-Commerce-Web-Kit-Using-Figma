@@ -50,11 +50,11 @@ function Landingpage() {
                 </div>
                
                 <div>
-                 <img className='vector2' src="../public/Vector (1).svg" alt="" />
+                 <img className='vector2' src="../images/Vector (1).svg" alt="" />
                     
-                    <img className='people-img' src="../public/Rectangle_2-removebg-preview.png" alt="" />
+                    <img className='people-img' src="../images/Rectangle_2-removebg-preview.png" alt="" />
                 </div>
-                 <img className='vector1' src="../public/Vector.svg" alt="" />
+                 <img className='vector1' src="../images/Vector.svg" alt="" />
             </div>
         </div>
     )

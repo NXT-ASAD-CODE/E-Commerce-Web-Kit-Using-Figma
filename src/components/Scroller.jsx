@@ -1,14 +1,14 @@
 import React from 'react';
 
 const logos = [
-  './public/61e66fbaa8fdb.png',
-  './public/25062023-23-38-15Beechtree.png',
-  './public/images.png',
-  './publc/dda3c471-5fad-419b-b7e8-841821733d44_small.jpg',
-  './public/888-8881000_sapphire-sapphire-clothing-logo.png',
-  './public/SAYA-LOGO-SHOPIFY-STORE-BLACK.webp',
-  './public/25062023-23-38-15Beechtree.png',
-  './publc/dda3c471-5fad-419b-b7e8-841821733d44_small.jpg',
+  './images/61e66fbaa8fdb.png',
+  './images/25062023-23-38-15Beechtree.png',
+  './images/images.png',
+  './images/dda3c471-5fad-419b-b7e8-841821733d44_small.jpg',
+  './images/888-8881000_sapphire-sapphire-clothing-logo.png',
+  './images/SAYA-LOGO-SHOPIFY-STORE-BLACK.webp',
+  './images/25062023-23-38-15Beechtree.png',
+  './images/dda3c471-5fad-419b-b7e8-841821733d44_small.jpg',
 ];
 
 const LogoSlide = () => (
