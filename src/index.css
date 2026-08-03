@@ -736,3 +736,6 @@
     height: 70px;
     margin: 0 40px;
 }
+.card-img img{
+  width: 200px;
+}

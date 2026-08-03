@@ -10,16 +10,16 @@ import CardActions from '@mui/material/CardActions';
 
 function NewArrival() {
 
-  const phoneNumber = "923146581721"; // Our WhatsApp number
+    const phoneNumber = "923146581721"; // Our WhatsApp number
 
-  const handleBuyNow = () => {
+    const handleBuyNow = () => {
 
-    const product = {
-      name: "Digital Printed Lawn Summer 2026",
-      price: "2000",
-    };
+        const product = {
+            name: "Digital Printed Lawn Summer 2026",
+            price: "2000",
+        };
 
-    const message = `Hello!
+        const message = `Hello!
 
 I want to order this product.
 
@@ -28,74 +28,223 @@ I want to order this product.
 
 Please let me know the availability.`;
 
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
-    window.open(url, "_blank");
-  };
+        window.open(url, "_blank");
+    };
 
-  return (
-    <div className="height-100-vh">
+    return (
+        <div className="height-100-vh">
 
-      <div className="d-flex justify-content-center">
-        <h1 className="margin-top-50 font-size-55 font-family">
-          New Arrivals
-        </h1>
-      </div>
+            <div className="d-flex justify-content-center">
+                <h1 className="margin-top-50 font-size-55 font-family">
+                    New Arrivals
+                </h1>
+            </div>
 
-      <div className="d-flex justify-content-space-around margin-top-75">
+            <div className="d-flex justify-content-space-around margin-top-75 flex-wrap">
 
-        <Card sx={{ maxWidth: 345 }}>
+                <Card sx={{ maxWidth: 250 }}>
 
-          <CardActionArea>
+                    <CardActionArea>
 
-            <CardMedia
-              component="img"
-              height="380"
-              image="../whatsapp iamges/WhatsApp Image 2026-06-09 at 3.06.23 PM.jpeg"
-              alt="Khadi Image"
-            //   width="200"
-              
-            />
+                        <CardMedia
+                            component="img"
+                            image="../whatsapp iamges/WhatsApp Image 2026-06-09 at 3.06.23 PM.jpeg"
+                            alt="Khadi Image"
+                            sx={{
+                                height: 250,
+                                objectFit: "cover",
+                                width:250
+                            }}
+                        />
 
-            <CardContent>
+                        <CardContent>
 
-              <Typography gutterBottom variant="h6">
-                Digital Printed <br />
-                Lawn Summer 2026
-              </Typography>
+                            <Typography gutterBottom variant="h6">
+                                Digital Printed <br />
+                                Lawn Summer 2026
+                            </Typography>
 
-              <Typography sx={{ fontSize: 16 }}>
-                Rs. 2000
-              </Typography>
+                            <Typography sx={{ fontSize: 16 }}>
+                                Rs. 2000
+                            </Typography>
 
-              <Typography variant="body2" color="text.secondary">
-                Premium quality digital printed lawn suit with soft fabric,
-                perfect for the summer season.
-              </Typography>
+                            <Typography variant="body5" color="text.secondary">
+                                Premium quality digital printed lawn suit with soft fabric,
+                                perfect for the summer season.
+                            </Typography>
 
-            </CardContent>
+                        </CardContent>
 
-          </CardActionArea>
+                    </CardActionArea>
 
-          <CardActions>
+                    <CardActions>
 
-            <Button
-              variant="contained"
-              color="success"
-              fullWidth
-              onClick={handleBuyNow}
-            >
-              Buy Now
-            </Button>
+                        <Button
+                            variant="contained"
+                            color="success"
+                            fullWidth
+                            onClick={handleBuyNow}
+                        >
+                            Buy Now
+                        </Button>
 
-          </CardActions>
+                    </CardActions>
 
-        </Card>
+                </Card>
+                <Card sx={{ maxWidth: 250 }}>
 
-      </div>
+                    <CardActionArea>
 
-    </div>
-  );
+                        <CardMedia
+                            component="img"
+                            image="../whatsapp iamges/WhatsApp Image 2026-06-09 at 3.06.24 PM (1).jpeg"
+                            alt="Khadi Image"
+                            sx={{
+                                height: 250,
+                                objectFit: "cover",
+                                width:250
+                            }}
+                        />
+
+                        <CardContent>
+
+                            <Typography gutterBottom variant="h6">
+                                Digital Printed <br />
+                                Lawn Summer 2026
+                            </Typography>
+
+                            <Typography sx={{ fontSize: 16 }}>
+                                Rs. 2000
+                            </Typography>
+
+                            <Typography variant="body5" color="text.secondary">
+                                Premium quality digital printed lawn suit with soft fabric,
+                                perfect for the summer season.
+                            </Typography>
+
+                        </CardContent>
+
+                    </CardActionArea>
+
+                    <CardActions>
+
+                        <Button
+                            variant="contained"
+                            color="success"
+                            fullWidth
+                            onClick={handleBuyNow}
+                        >
+                            Buy Now
+                        </Button>
+
+                    </CardActions>
+
+                </Card>
+                <Card sx={{ maxWidth: 250 }}>
+
+                    <CardActionArea>
+
+                        <CardMedia
+                            component="img"
+                            image="../whatsapp iamges/WhatsApp Image 2026-06-09 at 3.06.24 PM (2).jpeg"
+                            alt="Khadi Image"
+                            sx={{
+                                height: 250,
+                                objectFit: "cover",
+                                width:250
+                            }}
+                        />
+
+                        <CardContent>
+
+                            <Typography gutterBottom variant="h6">
+                                Digital Printed <br />
+                                Lawn Summer 2026
+                            </Typography>
+
+                            <Typography sx={{ fontSize: 16 }}>
+                                Rs. 2000
+                            </Typography>
+
+                            <Typography variant="body5" color="text.secondary">
+                                Premium quality digital printed lawn suit with soft fabric,
+                                perfect for the summer season.
+                            </Typography>
+
+                        </CardContent>
+
+                    </CardActionArea>
+
+                    <CardActions>
+
+                        <Button
+                            variant="contained"
+                            color="success"
+                            fullWidth
+                            onClick={handleBuyNow}
+                        >
+                            Buy Now
+                        </Button>
+
+                    </CardActions>
+
+                </Card>
+                <Card sx={{ maxWidth: 250 }}>
+
+                    <CardActionArea>
+
+                        <CardMedia
+                            component="img"
+                            image="../whatsapp iamges/WhatsApp Image 2026-06-09 at 3.06.24 PM (3).jpeg"
+                            alt="Khadi Image"
+                            sx={{
+                                height: 250,
+                                objectFit: "cover",
+                                width:250
+                            }}
+                        />
+
+                        <CardContent>
+
+                            <Typography gutterBottom variant="h6">
+                                Digital Printed <br />
+                                Lawn Summer 2026
+                            </Typography>
+
+                            <Typography sx={{ fontSize: 16 }}>
+                                Rs. 2000
+                            </Typography>
+
+                            <Typography variant="body5" color="text.secondary">
+                                Premium quality digital printed lawn suit with soft fabric,
+                                perfect for the summer season.
+                            </Typography>
+
+                        </CardContent>
+
+                    </CardActionArea>
+
+                    <CardActions>
+
+                        <Button
+                            variant="contained"
+                            color="success"
+                            fullWidth
+                            onClick={handleBuyNow}
+                        >
+                            Buy Now
+                        </Button>
+
+                    </CardActions>
+
+                </Card>
+
+            </div>
+
+        </div>
+    );
 }
 
 export default NewArrival;
